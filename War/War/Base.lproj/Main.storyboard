@@ -20,67 +20,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Mx-dS-yPq">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzL-me-3gD" userLabel="Deal">
-                                <rect key="frame" x="0.0" y="0.0" width="31" height="30"/>
-                                <state key="normal" title="Deal"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="31" height="30"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="31" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="PlayRoundTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsO-9O-ZBu"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCP-i1-N6i" userLabel="score1">
-                                <rect key="frame" x="0.0" y="0.0" width="61" height="120"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="61" height="120"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="61" height="120"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAf-Oc-YpW">
-                                <rect key="frame" x="0.0" y="0.0" width="59" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="59" height="21"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="59" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9S-Pq-Par" userLabel="score2">
-                                <rect key="frame" x="0.0" y="0.0" width="61" height="120"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="61" height="120"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="61" height="120"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFt-aV-mZp" userLabel="Player2">
-                                <rect key="frame" x="0.0" y="0.0" width="62" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="62" height="21"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="62" height="21"/>
-                                </variation>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nb3-An-27n" userLabel="firstCard">
                                 <rect key="frame" x="50" y="215" width="120" height="170"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -103,6 +42,37 @@
                                     <rect key="frame" x="0.0" y="315" width="120" height="170"/>
                                 </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCP-i1-N6i" userLabel="score1">
+                                <rect key="frame" x="20" y="460" width="61" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74V-pi-aes">
+                                <rect key="frame" x="21" y="424" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp0-Wh-v4Z" userLabel="score2">
+                                <rect key="frame" x="519" y="460" width="61" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-hT-0sB" userLabel="Player 2">
+                                <rect key="frame" x="519" y="424" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzL-me-3gD" userLabel="Deal">
+                                <rect key="frame" x="285" y="424" width="31" height="30"/>
+                                <state key="normal" title="Deal"/>
+                                <connections>
+                                    <action selector="PlayRoundTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsO-9O-ZBu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -110,17 +80,30 @@
                             <constraint firstItem="1Mx-dS-yPq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3o7-va-Vy6"/>
                             <constraint firstItem="nb3-An-27n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EFw-fW-KuM"/>
                             <constraint firstItem="vah-RD-1dL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HDL-jm-QVh"/>
+                            <constraint firstItem="PCP-i1-N6i" firstAttribute="centerX" secondItem="74V-pi-aes" secondAttribute="centerX" id="HTP-nH-deK"/>
                             <constraint firstAttribute="trailing" secondItem="1Mx-dS-yPq" secondAttribute="trailing" id="Kfc-mT-sMB"/>
                             <constraint firstAttribute="bottom" secondItem="1Mx-dS-yPq" secondAttribute="bottom" id="Ldn-dz-q6b"/>
+                            <constraint firstItem="lp0-Wh-v4Z" firstAttribute="centerX" secondItem="DfX-hT-0sB" secondAttribute="centerX" id="NMD-7V-ZE4"/>
+                            <constraint firstItem="dzL-me-3gD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zyi-OP-HTT"/>
                             <constraint firstAttribute="trailing" secondItem="vah-RD-1dL" secondAttribute="trailing" constant="100" id="euF-P0-WlA"/>
+                            <constraint firstItem="PCP-i1-N6i" firstAttribute="top" secondItem="74V-pi-aes" secondAttribute="bottom" constant="15" id="fkG-8U-Ay9"/>
+                            <constraint firstItem="lp0-Wh-v4Z" firstAttribute="top" secondItem="DfX-hT-0sB" secondAttribute="bottom" constant="15" id="i4n-d2-jfi"/>
+                            <constraint firstAttribute="trailing" secondItem="lp0-Wh-v4Z" secondAttribute="trailing" constant="20" id="iqb-FO-Amu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PCP-i1-N6i" secondAttribute="bottom" constant="20" id="kOr-d7-QlA"/>
                             <constraint firstItem="nb3-An-27n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="lo5-1z-f7J"/>
+                            <constraint firstItem="PCP-i1-N6i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="mbI-Te-g53"/>
                             <constraint firstItem="nb3-An-27n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="nAb-Yb-Oyi"/>
+                            <constraint firstAttribute="bottom" secondItem="dzL-me-3gD" secondAttribute="bottom" constant="65" id="pUE-Kc-Hct"/>
+                            <constraint firstAttribute="bottom" secondItem="lp0-Wh-v4Z" secondAttribute="bottom" constant="20" id="ta4-Ui-K6p"/>
                             <constraint firstItem="1Mx-dS-yPq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uAe-x0-gel"/>
+                            <constraint firstAttribute="bottom" secondItem="dzL-me-3gD" secondAttribute="bottom" constant="200" id="vOy-LO-4Za"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="nAb-Yb-Oyi"/>
                                 <exclude reference="euF-P0-WlA"/>
+                                <exclude reference="pUE-Kc-Hct"/>
+                                <exclude reference="vOy-LO-4Za"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -129,19 +112,24 @@
                                 <include reference="nAb-Yb-Oyi"/>
                                 <exclude reference="0cF-4p-fbY"/>
                                 <include reference="euF-P0-WlA"/>
+                                <include reference="pUE-Kc-Hct"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="vOy-LO-4Za"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="background" destination="1Mx-dS-yPq" id="98R-kv-gy0"/>
                         <outlet property="deal" destination="dzL-me-3gD" id="Ozc-2C-miY"/>
-                        <outlet property="enemyScoreLabel" destination="Q9S-Pq-Par" id="Ix0-D0-kIS"/>
                         <outlet property="playerScore" destination="PCP-i1-N6i" id="Gri-Q5-TQb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158" y="441"/>
+            <point key="canvasLocation" x="88" y="669"/>
         </scene>
     </scenes>
 </document>
